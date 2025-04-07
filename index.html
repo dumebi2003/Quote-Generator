@@ -7,45 +7,50 @@
     <title>📜 AI Quote Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Quote Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Quote Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Please enter the theme word for your quote"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        the quote will go here
-        <br />
-      </div>
-    </main>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Please enter the theme word for your quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="quote">
+          the quote will go here
+          <br />
+        </div>
+      </main>
 
-    <footer>
-      <small
-        >This project was coded by
-        <a
-          href="https://www.linkedin.com/in/dumebi-gabriella-onyebuchi-78ba821ba/"
-          target="_blank"
-          >Dumebi Onyebuchi</a
-        >
-        and is open-sourced on
-        <a href="https://github.com/dumebi2003/Quote-Generator" target="_blank"
-          >Github</a
-        >
-        and is hosted on
-        <a href="https://do-quote-generator.netlify.app/" target="_blank"
-          >Netflify</a
-        >
-      </small>
-    </footer>
+      <footer>
+        <small
+          >This project was coded by
+          <a
+            href="https://www.linkedin.com/in/dumebi-gabriella-onyebuchi-78ba821ba/"
+            target="_blank"
+            >Dumebi Onyebuchi</a
+          >
+          and is open-sourced on
+          <a
+            href="https://github.com/dumebi2003/Quote-Generator"
+            target="_blank"
+            >Github</a
+          >
+          and is hosted on
+          <a href="https://do-quote-generator.netlify.app/" target="_blank"
+            >Netflify</a
+          >
+        </small>
+      </footer>
+    </div>
     <script src="/src/index.js"></script>
   </body>
 </html>
