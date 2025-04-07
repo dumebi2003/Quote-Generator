@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>📜 AI Quote Generator</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Please enter the theme word for your quote"
@@ -24,8 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="quote">
-          the quote will go here
+        <div class="quote" id="quote">
           <br />
         </div>
       </main>
