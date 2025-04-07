@@ -1,10 +1,10 @@
 function generateQuote(event) {
   event.preventDefault();
 
-  new Typewriter("quote", {
-    strings: ["Hello", "World"],
+  new Typewriter("#quote", {
+    strings: "Hello World",
     autoStart: true,
-    delay: 1,
+    delay: 20,
     cursor: "",
   });
 }
